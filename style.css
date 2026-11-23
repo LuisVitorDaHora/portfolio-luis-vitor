@@ -31,10 +31,14 @@ nav a {
 }
 
 .hero img {
-  width: 150px;
-  border-radius: 50%;
-  border: 3px solid #B983FF;
-  margin: 20px 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 3px solid #B983FF;
+    margin: 20px 0;
+    display: inline-block;
 }
 
 .descricao {
@@ -313,4 +317,5 @@ h2 {
     left: 17px; /* Alinha com a linha movida */
   }
 }
+
 
